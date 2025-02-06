@@ -603,6 +603,9 @@
     --tw-font-weight: var(--font-weight-black);
     font-weight: var(--font-weight-black);
   }
+  .text-\[var\(--custom-red\)\] {
+    color: var(--custom-red);
+  }
   .hover\:bg-bottom {
     &:hover {
       @media (hover: hover) {
@@ -617,6 +620,9 @@
       }
     }
   }
+}
+:root {
+  --custom-red: #f0000f;
 }
 @layer components {
   .bg-anim-top {

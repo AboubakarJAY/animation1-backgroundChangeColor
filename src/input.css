@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+  --custom-red: #f0000f;
+}
+
 @layer components {
   .bg-anim-top {
     background-size: 100% 0;
