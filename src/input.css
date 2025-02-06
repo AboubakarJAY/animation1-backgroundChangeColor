@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer components {
+  .bg-anim-top {
+    background-size: 100% 0;
+    transition: background 0.3s ease;
+    &:hover {
+      background-size: 100% 100%;
+    }
+  }
+  .bg-anim-right {
+    background-size: 0 100%;
+    transition: background 0.3s ease;
+    &:hover {
+      background-size: 100% 100%;
+    }
+  }
+  .bg-change-color {
+    transition: background 0.5s ease-in-out;
+  }
+}

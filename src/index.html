@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Intro to css animation</title>
+  </head>
+  <body class="flex flex-col items-center">
+    <h1
+      class="bg-anim-top bg-gradient-to-r from-sky-300 to-sky-300 bg-no-repeat bg-bottom hover:bg-bottom p-2 font-black text-3xl mt-4"
+    >
+      Halloween Ideas
+    </h1>
+
+    <h2
+      class="bg-anim-right bg-gradient-to-r from-amber-200 to-amber-200 bg-no-repeat bg-left hover:bg-left p-2"
+    >
+      Survole moi
+    </h2>
+    <div
+      id="color"
+      class="w-[200px] h-[200px] bg-[#bdbde2] flex justify-center items-center bg-change-color"
+    >
+      click
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
